@@ -7,6 +7,6 @@ mostrar en consola las horas trabajadas y el salario semanal, utiliza Template S
 let costosHora = 15;
 let horasTrab = 40;
 
-const salarioSemanal = costosHora * horasTrab;
+let salarioSemanal = costosHora * horasTrab;
 
 console.log(`Horas trabajadas: ${horasTrab} horas, Salario Semanal: ${salarioSemanal}`);
